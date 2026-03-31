@@ -1,15 +1,22 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
+from datetime import datetime
 
 st.set_page_config(layout="wide")
 
 # Load data
 @st.cache_data
-def load_data():
+def load_data(_file_mod_time):
+    # _file_mod_time parameter invalidates cache when files change
     final_df = pd.read_excel("final_output.xlsx")
     detailed_df = pd.read_excel("detailed_output.xlsx")
     return final_df, detailed_df
+
+# Get file modification time to invalidate cache when files change
+final_mtime = os.path.getmtime("final_output.xlsx")
+final_df, detailed_df = load_data(final_mtime)
 
 final_df, detailed_df = load_data()
 
