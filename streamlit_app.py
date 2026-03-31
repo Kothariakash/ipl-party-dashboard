@@ -58,3 +58,5 @@ with tab2:
         st.plotly_chart(fig)
         # Then data
         st.dataframe(match_details)
+
+#
