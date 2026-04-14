@@ -33,7 +33,7 @@ def get_scorecard(match_id):
     )
 
     headers = {
-        'x-rapidapi-key': "e53f1ff333msh015bad1e0b37d59p13805ejsn6106d8dcc59b",
+        'x-rapidapi-key': "716f46e5d1msh227ce8daccaf19ep1b53bejsn9f58bb98bb25",
         'x-rapidapi-host': "cricbuzz-cricket.p.rapidapi.com"
     }
 
