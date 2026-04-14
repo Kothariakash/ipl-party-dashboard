@@ -207,27 +207,28 @@ def main():
     df = pd.read_excel("data/assignment.xlsx")
 
     matches = [
-        {"id": "149618", "name": "RCB vs SRH"},
-        {"id": "149629", "name": "MI vs KKR"},
-        {"id": "149640", "name": "CSK vs RR"},
-        {"id": "149651", "name": "GT vs PBKS"},
-        {"id": "149662", "name": "LSG vs DC"},
-        {"id": "149673", "name": "SRH vs KKR"},
-        {"id": "149684", "name": "CSK vs PBKS"},
-        {"id": "149695", "name": "MI vs DC"},
-        {"id": "149699", "name": "RR vs GT"},
-        {"id": "149710", "name": "SRH vs LSG"},
-        {"id": "149721", "name": "CSK vs RCB"},
-        # {"id": "149732", "name": "KKR vs PBKS"},
-        {"id": "149743", "name": "MI vs RR"},
-        {"id": "149746", "name": "DC vs GT"},
-        {"id": "149757", "name": "LSG vs KKR"},
-        {"id": "149768", "name": "RR vs RCB"},
-        {"id": "149779", "name": "SRH vs PBKS"},
-        {"id": "149790", "name": "CSK vs DC"},
-        {"id": "149801", "name": "LSG vs GT"},
-        {"id": "149812", "name": "RCB vs MI"},
-        {"id": "151752", "name": "SRH vs RR"}
+        # {"id": "149618", "name": "RCB vs SRH"},
+        # {"id": "149629", "name": "MI vs KKR"},
+        # {"id": "149640", "name": "CSK vs RR"},
+        # {"id": "149651", "name": "GT vs PBKS"},
+        # {"id": "149662", "name": "LSG vs DC"},
+        # {"id": "149673", "name": "SRH vs KKR"},
+        # {"id": "149684", "name": "CSK vs PBKS"},
+        # {"id": "149695", "name": "MI vs DC"},
+        # {"id": "149699", "name": "RR vs GT"},
+        # {"id": "149710", "name": "SRH vs LSG"},
+        # {"id": "149721", "name": "CSK vs RCB"},
+        # # {"id": "149732", "name": "KKR vs PBKS"},
+        # {"id": "149743", "name": "MI vs RR"},
+        # {"id": "149746", "name": "DC vs GT"},
+        # {"id": "149757", "name": "LSG vs KKR"},
+        # {"id": "149768", "name": "RR vs RCB"},
+        # {"id": "149779", "name": "SRH vs PBKS"},
+        # {"id": "149790", "name": "CSK vs DC"},
+        # {"id": "149801", "name": "LSG vs GT"},
+        # {"id": "149812", "name": "RCB vs MI"},
+        # {"id": "151752", "name": "SRH vs RR"}
+        {"id": "151763", "name": "CSK vs KKR"}
 
     ]
     all_results = []
