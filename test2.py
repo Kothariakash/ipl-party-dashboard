@@ -239,7 +239,8 @@ def main():
         # {"id": "151845", "name": "GT vs MI"}   
             # {"id": "151856", "name": "SRH vs DC"}
             # {"id": "151867", "name": "RR vs LSG"}
-                {"id": "151878", "name": "CSK vs MI"}
+                # {"id": "151878", "name": "CSK vs MI"}
+                {"id": "151889", "name": "GT vs RCB"}
     ]
     all_results = []
 
