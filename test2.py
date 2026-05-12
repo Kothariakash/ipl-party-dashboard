@@ -261,7 +261,8 @@ def main():
         # {"id": "152075", "name": "GT vs RR"},
         # {"id": "152086", "name": "CSK vs LSG"},
         # {"id": "152097", "name": "MI vs RCB"}
-        {"id": "152108", "name": "DC vs PBKS"}
+        # {"id": "152108", "name": "DC vs PBKS"}
+        {"id": "152119", "name": "GT vs SRH"}
 
 
     ]
