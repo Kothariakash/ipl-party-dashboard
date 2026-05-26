@@ -274,9 +274,10 @@ def main():
         # {"id": "152218", "name": "KKR vs MI"},
         # {"id": "152229", "name": "CSK vs GT"}
         # {"id": "152240", "name": "SRH vs RCB"}
-        {"id": "152241", "name": "PBKS vs LSG"},
-        {"id": "152252", "name": "RR vs MI"},
-        {"id": "152263", "name": "DC vs KKR"}
+        # {"id": "152241", "name": "PBKS vs LSG"},
+        # {"id": "152252", "name": "RR vs MI"},
+        # {"id": "152263", "name": "DC vs KKR"}
+        {"id": "155376", "name": "GT vs RCB"}
 
 
     ]
